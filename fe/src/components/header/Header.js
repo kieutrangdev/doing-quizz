@@ -15,10 +15,11 @@ const Header = () => {
                         <Link to='/' className='nav-link'>Home</Link>
                         <Link to='/users' className='nav-link'>User</Link>
                         <Link to='/admins' className='nav-link'>Admin</Link>
-
                     </Nav>
                     <Nav>
-                        <NavDropdown title="Setting" id="basic-nav-dropdown">
+                        <button className='btn-login'>Log in</button>
+                        <button className='btn-signup'>Sign up</button>
+                        {/* <NavDropdown title="Setting" id="basic-nav-dropdown">
                             <NavDropdown.Item >Log in</NavDropdown.Item>
                             <NavDropdown.Item>
                                 Log out
@@ -26,7 +27,7 @@ const Header = () => {
                             <NavDropdown.Item>
                                 Profile
                             </NavDropdown.Item>
-                        </NavDropdown>
+                        </NavDropdown> */}
                     </Nav>
                 </Navbar.Collapse>
             </Container>
